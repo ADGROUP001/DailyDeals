@@ -1,0 +1,41 @@
+@media (min-width: 320px) and (max-width: 1279.98px) {
+    .pb-650 {
+        padding-bottom: 0rem;
+    }
+}
+.h-25rem {
+    height: 25rem;
+}
+.tt-visit-store {
+    display: flex;
+    align-items: center;
+}
+.tt-visit-store svg {
+    width: 18px !important;
+    height: 18px !important;
+    line-height: 18px !important;
+}
+.min-h-400 {
+    min-height: 400px;
+}
+
+.product-radio-btn li {
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 6px;
+}
+.product-radio-btn li input {
+    display: none;
+}
+.product-radio-btn li label {
+    border: 1px dashed #ebebeb;
+    padding: 1px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.product-radio-btn li input:checked + label {
+    border-color: #4eb529;
+    color: #4eb529;
+}
+
+

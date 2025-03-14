@@ -1,0 +1,143 @@
+.note-modal-content {
+    border: none
+}
+
+.note-modal-header {
+    padding: 12px 24px;
+    border-color: var(--bs-border-color-translucent);
+    border-left: 0;
+    border-right: 0;
+    border-top: 0
+}
+
+.note-modal-body {
+    padding: 15px 24px
+}
+
+.note-modal-body .checkbox input {
+    margin-right: .5rem
+}
+
+.note-modal-title {
+    color: #212b36
+}
+
+.note-form-label {
+    font-size: .8203125rem
+}
+
+.note-modal-footer {
+    height: 50px;
+    padding: 12px 24px
+}
+
+.note-editor .note-toolbar,
+.note-popover .popover-content {
+    padding: 10px !important
+}
+
+.note-toolbar {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0)
+}
+
+.note-editor.note-airframe,
+.note-editor.note-frame {
+    border-color: var(--bs-border-color-translucent)
+}
+
+.note-editor .note-editing-area {
+    background-color: var(--bs-body-bg)
+}
+
+.note-frame {
+    color: #454f5b;
+    font-family: "Inter", Helvetica
+}
+
+.note-editor.note-airframe .note-editing-area .note-editable,
+.note-editor.note-frame .note-editing-area .note-editable {
+    padding: 16px
+}
+
+.note-editable::-webkit-scrollbar {
+    width: 2px
+}
+
+.note-editable::-webkit-scrollbar-track {
+    background-color: #f4f6f8;
+    border-radius: 6px
+}
+
+.note-editable::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background: #c4cdd5
+}
+
+.note-editor.note-airframe .note-statusbar,
+.note-editor.note-frame .note-statusbar {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0)
+}
+
+button.note-btn {
+    padding: 4px 8px;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: .3125rem
+}
+
+button.note-btn:active,
+button.note-btn.active {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: .3125rem
+}
+
+button.note-btn:hover {
+    border-radius: .3125rem
+}
+
+button.note-btn.dropdown-toggle:after {
+    display: none
+}
+
+.note-editor.note-airframe .note-placeholder,
+.note-editor.note-frame .note-placeholder {
+    padding: 10px 16px
+}
+
+.note-modal .note-modal-body input.note-input {
+    padding: .625rem 1rem
+}
+
+.note-modal .note-btn {
+    line-height: inherit;
+    padding: .625rem 1.125rem;
+    border-radius: .3125rem;
+    border: initial
+}
+
+.note-modal .note-btn:active,
+.note-modal .note-btn.active {
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.note-modal .note-btn.note-btn-primary {
+    background-color: #9333ea
+}
+
+.note-editor .dropdown-toggle::after {
+    all: unset
+}
+
+.note-editor .note-dropdown-menu {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+.note-editor .note-modal-footer {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box
+}
